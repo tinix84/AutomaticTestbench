@@ -1,0 +1,122 @@
+# -*- coding': utf-8 -*-
+'''
+Created on Mon Aug 27 13':20':32 2012
+
+@author': tricc
+'''
+
+cmd = {
+'ARM_ACQUISITION': 'ARM',
+'AUTO_SETUP': 'ASET',
+'ATTENUATION':   'ATTN',
+
+'COUPLING':   'CPL',
+'FORCE_TRIGGER':  'FRTR',
+'MEMORY_SIZE':  'MSIZ',
+'OFFSET':  'OFST',
+'SEQUENCE': 'SEQ',
+'STOP': 'STOP',
+'TIME_DIV': 'TDIV',
+'TRG':           '*TRG',
+'TRIG_COUPLING': 'TRCP',
+'TRIG_DELAY':    'TRDL',
+'TRIG_LEVEL':    'TRLV',
+'TRIG_MODE':     'TRMD',
+'TRIG_PATTERN':  'TRPA',
+'TRIG_SELECT':   'TRSE',
+'TRIG_SLOPE':    'TRSL',
+'VOLT_DIV':      'VDIV',
+'WAIT':          'WAIT',
+
+'COMM_FORMAT  ': 'CFMT',
+'COMM_HEADER  ': 'CHDR',
+'COMM_HELP    ': 'CHLP',
+'COMM_HELP_LOG': 'CHL',
+'COMM_ORDER   ': 'CORD',
+
+'CURSOR_MEASURE':       'CRMS',
+'CURSOR_SET':           'CRST',
+'CURSOR_VALUE':        'CRVA?',
+'CURSORS':              'CRS',
+'OFFSET_CONSTANT':      'OFCT',
+'PARAMETER_CLR':        'PACL',
+'PARAMETER_CUSTOM':     'PACU',
+'PARAMETER_DELETE':     'PADL',
+'PARAMETER_STATISTICS': 'PAST?',
+'PARAMETER_VALUE':     'PAVA?',
+'PASS_FAIL':            'PF',
+'PASS_FAIL_DO':         'PFDO',
+'PER_CURSOR_SET':       'PECS',
+
+'CLEAR_MEMORY':         'CLM',
+'CLEAR_SWEEPS':         'CLSW',
+'DEFINE':               'DEF',
+'FIND_CENTER_RANGE':    'FCR',
+'FUNCTION_RESET':       'FRST',
+
+'HARDCOPY_SETUP':       'HCSU',
+'SCREEN_DUMP':          'SCDP',
+
+'INSPECT':          'INSP?',
+'STORE':             'STO',
+'STORE_SETUP':       'STST',
+'TEMPLATE':         'TMPL?',
+'TRANSFER_FILE':     'TRFL',
+'WAVEFORM':          'WF',
+'WAVEFORM_SETUP':    'WFSU',
+
+#NOTE': OFF = FULL, ON = 20MHZ
+'BANDWIDTH_LIMIT':   'BWL',
+'BWFULL': 'OFF',
+'BW20MHZ': 'ON',
+'BW200MHZ': '200MHZ',
+
+#'CHANNEL_1': 'C1',
+#'CHANNEL_2': 'C2',
+#'CHANNEL_3': 'C3',
+#'CHANNEL_4': 'C4',
+#'CHANNEL_EX': 'EX',
+#'FUNCTION_1': 'F1',
+#'FUNCTION_2': 'F2',
+#'FUNCTION_3': 'F3',
+#'FUNCTION_4': 'F4',
+
+'AC1MEG': 'AC1M',
+'DC1MEG': 'DC1M',
+'DC50OHM': 'DC50',
+'GROUND': 'GND',
+
+'AMPLITUDE': 'AMPL',
+'AREA': 'AREA',
+'CYCLESONSCREEN': 'CYCL',
+'DELAY': 'DLY',
+'DUTYCYCLE': 'DUTY',
+'FALLTIME80TO20': 'FALL82',
+'FALLTIME90TO10': 'FALL',
+'FREQUENCY': 'FREQ',
+'MAXIMUM': 'MAX',
+'MEAN': 'MEAN',
+'MINIMUM': 'MIN',
+'PEAKTOPEAK': 'PKPK',
+'PERIOD': 'PER',
+'RISETIME10TO90': 'RISE',
+'RISETIME20TO80': 'RISE28',
+'ROOTMEANSQUARE': 'RMS',
+'STANDARDDEVIATION': 'SDEV',
+'TOP': 'TOP',
+'WIDTH': 'WID',
+}
+
+channel = {
+1: 'C1',
+2: 'C2',
+3: 'C3',
+4: 'C4',
+}
+
+function = {
+1: 'F1',
+2: 'F2',
+3: 'F3',
+4: 'F4',
+}
